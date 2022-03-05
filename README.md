@@ -5,4 +5,14 @@ this configuration is a buildable [archiso](https://wiki.archlinux.org/title/arc
 
 extract image into a partition
 
-```bindsym $mod+p exec grim -g "$(slurp -d)" - | wl-copy```
+installed packages:
+- slurp
+- wl-clipboard
+- grim
+- sway
+
+
+
+
+
+
