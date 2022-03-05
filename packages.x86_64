@@ -124,7 +124,7 @@ sway
 bash-completion
 wayland
 xorg-xwayland
-ly
+#ly
 slurp
 wl-clipboard
 grim
