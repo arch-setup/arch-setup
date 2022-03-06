@@ -1,5 +1,9 @@
 # arch-setup
-this configuration is a buildable [archiso](https://wiki.archlinux.org/title/archiso)
+this configuration is buildable
+```
+sudo mkarchiso . 
+```
+ [archiso](https://wiki.archlinux.org/title/archiso)
 
 ### install
 
