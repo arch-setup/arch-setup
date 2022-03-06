@@ -20,6 +20,7 @@ installed packages:
 - [diskless_system](https://wiki.archlinux.org/title/diskless_system)
 - [archiso](https://wiki.archlinux.org/title/archiso)
 - [Display_manager](https://wiki.archlinux.org/title/Display_manager)
+- [wayland](https://wiki.archlinux.org/title/wayland)
 
 
 
