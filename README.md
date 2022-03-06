@@ -21,9 +21,6 @@ installed packages:
 - [archiso](https://wiki.archlinux.org/title/archiso)
 - [Display_manager](https://wiki.archlinux.org/title/Display_manager)
 - [wayland](https://wiki.archlinux.org/title/wayland)
-
-
-
-
+- [Autostarting](https://wiki.archlinux.org/title/Autostarting)
 
 
