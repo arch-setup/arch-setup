@@ -14,7 +14,10 @@ installed packages:
 
 
 ### Reference 
-https://wiki.archlinux.org/title/diskless_system
+
+#### ArchWiki
+
+[diskless_system](https://wiki.archlinux.org/title/diskless_system)
 
 
 
