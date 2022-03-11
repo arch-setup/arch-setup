@@ -120,12 +120,16 @@ xfsprogs
 xl2tpd
 zsh
 
+# === custom packages === #
+
 sway
 bash-completion
 wayland
 xorg-xwayland
-ly-git
 slurp
 wl-clipboard
 grim
-discord
+
+# === AUR packages === #
+# ly
+# discord
