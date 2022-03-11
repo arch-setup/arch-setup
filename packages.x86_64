@@ -120,7 +120,7 @@ xfsprogs
 xl2tpd
 zsh
 
-# === custom packages === #
+# === packages === #
 
 sway
 bash-completion
@@ -130,6 +130,5 @@ slurp
 wl-clipboard
 grim
 
-# === AUR packages === #
-# ly
-# discord
+# === custom host packages === #
+ly
