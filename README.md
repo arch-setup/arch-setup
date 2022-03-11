@@ -15,7 +15,16 @@ installed packages:
 - grim
 - sway
 
-## [packages: host custom package gh-pages](https://www.youtube.com/watch?v=CYqd2AHXosk)
+## [packages]
+
+#### docs
+- https://wiki.archlinux.org/title/creating_packages
+- Arch User Repository
+
+### [create packages](https://www.youtube.com/watch?v=iUz28vbWgVw)
+
+
+### [host custom packages gh-pages]((https://www.youtube.com/watch?v=CYqd2AHXosk))
 to make a custom repo is enogut to create a folder under `x86_64/` and run
 ```
 repo-add 'name.db.tar.gz' *.pkg.tar.zst
