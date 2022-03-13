@@ -328,6 +328,7 @@ _make_custom_airootfs() {
 
 # Install desired packages to the root file system
 _make_packages() {
+    echo 'dioca'
     _msg_info "Installing packages to '${pacstrap_dir}/'..."
 
     if [[ -n "${gpg_key}" ]]; then
@@ -995,7 +996,7 @@ _build_bootstrap_image() {
 
 # Build ISO
 _build_iso_image() {
-    local xorriso_options=() xorrisofs_options=()
+    local xorrisofs_options=() #xorriso_options=() 
     local bootmode
 
     [[ -d "${out_dir}" ]] || install -d -- "${out_dir}"
@@ -1014,7 +1015,7 @@ _build_iso_image() {
 
     rm -f -- "${out_dir}/${image_name}"
     _msg_info "Creating ISO image..."
-    xorriso "${xorriso_options[@]}" -as mkisofs \
+    xorriso -as mkisofs \ #"${xorriso_options[@]}"
             -iso-level 3 \
             -full-iso9660-filenames \
             -joliet \
@@ -1238,11 +1239,11 @@ _build_iso_base() {
     _run_once _make_version
     _run_once _make_customize_airootfs
     _run_once _make_pkglist
-    if [[ "${buildmode}" == 'netboot' ]]; then
-        _run_once _make_boot_on_iso9660
-    else
+    # if [[ "${buildmode}" == 'netboot' ]]; then
+    #     _run_once _make_boot_on_iso9660
+    # else
         _make_bootmodes
-    fi
+    # fi
     _run_once _cleanup_pacstrap_dir
     _run_once _prepare_airootfs_image
 }

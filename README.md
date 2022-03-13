@@ -24,15 +24,6 @@ installed packages:
 ### [create packages](https://www.youtube.com/watch?v=iUz28vbWgVw)
 
 
-### [host custom packages gh-pages]((https://www.youtube.com/watch?v=CYqd2AHXosk))
-to make a custom repo is enogut to create a folder under `x86_64/` and run
-```
-repo-add 'name.db.tar.gz' *.pkg.tar.zst
-```
-to create a db.
-Like this
-
-<img src="docs/repo_db.png"/>
 
 In the pacman.conf insted add this.
 
